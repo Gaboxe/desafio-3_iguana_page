@@ -1,0 +1,100 @@
+body {
+    background-color: #000000;
+}
+h1,h2 {
+    font-family: 'Raleway' , sans-serif ;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+p {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+/*=================== Cabecera ====================*/
+header h1 {
+    text-align: center;
+    margin: 18.1px 0; 
+}
+.grid_una_fraccion { /*ajuste imagen iguana responsive*/
+    display: grid; /*inicializando grid, objetos en segunda dimencion (flex; pocisionar en tercera dimencion variadas direcciones en un div con display)*/
+    grid-template-columns: 1fr; /*columnas de 1fr*/
+}
+.db {
+    width: 100%; /*utilice el tamaño copleto de la grilla*/
+}
+
+/*================== Section_articulo =======================*/
+.two_count_equal {
+    display: flow-root;
+    width: 1280px;
+    margin: auto;
+}
+.img-rep {
+    float: right;
+    width: 399px;
+    height: 237px;
+    margin: 45px 150px 66px 53px;
+}
+.pa {
+    display: inline-block;
+    width: 475px;
+    height: 197px;
+    margin: 76px 53px 75px 150px;
+}
+.par {
+    width: 100%;
+}
+
+/*==================== Section_Caracteristicas =================*/
+.features {
+    text-align: center;
+    background-color: #1E1A13;
+    height: 348px;
+    color: #FFFFFF;
+
+}
+.title_fea h2 {
+    /*height: 47px;*//*darselo al alto de fuente*/
+    width: 356px;
+    margin: auto;
+    padding: 75px 39px 50px 0;
+}
+.fea_div {
+    width: auto;
+    margin: 0 82px;
+    display: inline-block;
+}
+.fea_div p{
+    margin: 1rem 0 0 0;
+}
+
+/*=================== Galeria_Imagenes ==========================*/
+.cont_galeri{
+    text-align: center;
+    margin: auto;
+    width: 1280px;
+    height: 348px;
+}
+.dv_img {
+    display: inline-block;
+    margin: 73px 0.5rem;
+}
+.img_galeri {
+    
+    width: 316px; /*316px*/
+    height: 202px; /* 202px */
+}
+
+/*=================== Pie de pagina ===================*/
+footer p,a {
+    background-color: #1E1A13; /* color fondo de la caja <P> */
+    text-align: center; /* centra el texto */
+    margin: 0px; /* margen del parrafo, caja <p> */
+    line-height: 102px; /* altura del area de contenido de la caja <p> */
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
